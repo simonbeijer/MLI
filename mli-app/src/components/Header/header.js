@@ -1,26 +1,42 @@
-import React from 'react';
+import React, { useState} from 'react';
 import './header.scss';
 import { Link } from "react-router-dom";
+import logo from '../../assets/MLI-logo.png'
+
 
 function Home() {
+  const [expanded, setExpanded] = useState(false);
+
+  const toggleExpand = () => setExpanded(!expanded);
+  const show = expanded ? "show": " ";
+
   return (
-      <header className="App-header">
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
+
+    // <header className="App-header">
+    <nav className="navbar navbar-expand-md navbar-light bg-light">
+      <Link className="navbar-brand" to="/"><img src={logo} alt="mli-logo" className="logo" /></Link>
+      <button className="navbar-toggler" type="button" onClick={ toggleExpand }>
+        <span className="navbar-toggler-icon" ></span>
+      </button>
+      <div className={"collapse navbar-collapse " + show }>
+
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            <Link className="nav-link" to="/">Home</Link>
           </li>
-          <li>
-            <Link to="about">About</Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="about">About</Link>
           </li>
-          <li>
-            <Link to="products">Products</Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="products">Products</Link>
           </li>
-          <li>
-            <Link to="contact">Contact</Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="contact">Contact</Link>
           </li>
         </ul>
-        <h1>MLI</h1>
-      </header>
+      </div>
+    </nav>
+    // </header>
   );
 }
 
