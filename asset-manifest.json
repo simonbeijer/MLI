@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MLI/static/css/main.c082462c.chunk.css",
+    "main.js": "/MLI/static/js/main.914003cf.chunk.js",
+    "main.js.map": "/MLI/static/js/main.914003cf.chunk.js.map",
+    "runtime-main.js": "/MLI/static/js/runtime-main.cc80e862.js",
+    "runtime-main.js.map": "/MLI/static/js/runtime-main.cc80e862.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/MLI/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.b9bc5319.chunk.js": "/MLI/static/js/2.b9bc5319.chunk.js",
+    "static/js/2.b9bc5319.chunk.js.map": "/MLI/static/js/2.b9bc5319.chunk.js.map",
+    "index.html": "/MLI/index.html",
+    "precache-manifest.5cff424b0b2f27c033ada54b06bbed46.js": "/MLI/precache-manifest.5cff424b0b2f27c033ada54b06bbed46.js",
+    "service-worker.js": "/MLI/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/MLI/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.c082462c.chunk.css.map": "/MLI/static/css/main.c082462c.chunk.css.map",
+    "static/js/2.b9bc5319.chunk.js.LICENSE.txt": "/MLI/static/js/2.b9bc5319.chunk.js.LICENSE.txt",
+    "static/media/MLI-logo.png": "/MLI/static/media/MLI-logo.6ec4d507.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc80e862.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.b9bc5319.chunk.js",
+    "static/css/main.c082462c.chunk.css",
+    "static/js/main.914003cf.chunk.js"
+  ]
+}
