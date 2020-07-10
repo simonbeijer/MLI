@@ -11,7 +11,6 @@ import { BrowserRouter, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter basename="process.env.PUBLIC_URL">
-    {console.log(process.env.PUBLIC_URL)}
     <div className="App ">
       <Header />
         <Route exact path="/" component={Home} />
