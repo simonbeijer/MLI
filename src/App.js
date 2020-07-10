@@ -5,7 +5,7 @@ import Home from './components/Home/home'
 import About from './components/About/about'
 import Products from './components/Products/products'
 import Contact from './components/Contact/contact'
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 
 
 function App() {
@@ -13,12 +13,10 @@ function App() {
     <HashRouter basename="/">
     <div className="App ">
       <Header />
-      {/* <Switch> */}
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/products" component={Products} />
         <Route path="/contact" component={Contact} />
-      {/* </Switch> */}
       <Footer />
     </div>
     </ HashRouter>
