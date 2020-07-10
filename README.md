@@ -1,2 +1,2 @@
 # MLI
-Middel-lake-industries
+Middle-lake-industries
