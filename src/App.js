@@ -5,12 +5,13 @@ import Home from './components/Home/home'
 import About from './components/About/about'
 import Products from './components/Products/products'
 import Contact from './components/Contact/contact'
-import { HashRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <BrowserRouter basename="process.env.PUBLIC_URL">
+    {console.log(process.env.PUBLIC_URL)}
     <div className="App ">
       <Header />
         <Route exact path="/" component={Home} />
@@ -19,7 +20,7 @@ function App() {
         <Route path="/contact" component={Contact} />
       <Footer />
     </div>
-    </ HashRouter>
+    </ BrowserRouter>
   );
 }
 
