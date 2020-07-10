@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -11,9 +10,7 @@ import './custom.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename={process.env.PUBLIC_URL} >
-    <Route component={App} />
-    </HashRouter>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
