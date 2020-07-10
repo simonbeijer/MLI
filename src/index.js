@@ -11,7 +11,7 @@ import './custom.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL} >
     <Route component={App} />
     </HashRouter>
   </React.StrictMode>,
