@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import './custom.scss';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import { BrowserRouter as Router } from "react-router-dom";
 
 
