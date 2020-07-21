@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="App ">
       <Header />
-        <Route exact path="/" component={Home} />
+        {/* <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/products" component={Products} />
         <Route path="/contact" component={Contact} />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
