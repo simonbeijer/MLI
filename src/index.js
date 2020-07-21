@@ -5,16 +5,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import './custom.scss';
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 import { BrowserRouter as Router } from "react-router-dom";
 
 
 ReactDOM.render(
-    // <App />
-     <Router basename="/MLI">
-    <h1>HEJ</h1>
-    </Router>
-    ,
+  <Router basename="/MLI">
+    <App />
+  </Router>,
   document.getElementById('root')
 );
 
