@@ -10,16 +10,18 @@ import { Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App ">
-      <h1>HEJ</h1>
+    <div className="App">
       <Header />
-        {/* <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/products" component={Products} />
-        <Route path="/contact" component={Contact} />
-      <Footer /> */}
+      <h1>HEJ</h1>
     </div>
   );
 }
 
 export default App;
+
+{/* <Header /> */}
+  {/* <Route exact path="/" component={Home} />
+  <Route path="/about" component={About} />
+  <Route path="/products" component={Products} />
+  <Route path="/contact" component={Contact} />
+<Footer /> */}
