@@ -70,7 +70,7 @@ function Products() {
         {images.map((images) =>
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div href="" className="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src={images.src} alt={images.alt} />
+              <img className="img-fluid img-thumbnail" src={images.src} alt={images.alt} />
               <div className="product-info">
                 <p>Namn</p>
                 <p className={images.available === "BUY" ? "greenProduct" : "redProduct" }>{images.available}</p>
