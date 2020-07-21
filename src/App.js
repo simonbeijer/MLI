@@ -12,7 +12,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>HEJ</h1>
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/products" component={Products} />
+      <Route path="/contact" component={Contact} />
+      <Footer />
     </div>
   );
 }
@@ -20,8 +24,3 @@ function App() {
 export default App;
 
 {/* <Header /> */}
-  {/* <Route exact path="/" component={Home} />
-  <Route path="/about" component={About} />
-  <Route path="/products" component={Products} />
-  <Route path="/contact" component={Contact} />
-<Footer /> */}
