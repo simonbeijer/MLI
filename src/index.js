@@ -10,10 +10,10 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 
 ReactDOM.render(
-    //  <Router basename="/MLI">
     // <App />
-    // </Router>
+     <Router basename="/MLI">
     <h1>HEJ</h1>
+    </Router>
     ,
   document.getElementById('root')
 );
