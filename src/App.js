@@ -11,6 +11,7 @@ import { Route } from "react-router-dom";
 function App() {
   return (
     <div className="App ">
+      <h1>HEJ</h1>
       <Header />
         {/* <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
