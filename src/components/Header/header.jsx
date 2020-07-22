@@ -11,8 +11,6 @@ function Home() {
   const show = expanded ? "show": " ";
 
   return (
-
-    // <header className="App-header">
     <nav className="navbar navbar-expand-md navbar-light bg-light">
       <Link className="navbar-brand" to="/"><img src={logo} alt="mli-logo" className="logo" /></Link>
       <button className="navbar-toggler" type="button" onClick={ toggleExpand }>
@@ -36,7 +34,6 @@ function Home() {
         </ul>
       </div>
     </nav>
-    // </header>
   );
 }
 
