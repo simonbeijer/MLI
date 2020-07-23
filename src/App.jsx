@@ -11,20 +11,20 @@ import {BrowserRouter, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter basename="/MLI">
-    <div className="App">
-      <Header />
       <Switch>
       <Route path="/about" component={About} />
       <Route path="/products" component={Products} />
       <Route path="/contact" component={Contact} />
       <Route path="/" component={Home} />
       </Switch>
-      <Footer />
-    </div>
   </BrowserRouter>
   );
 }
 
 export default App;
+// <div className="App">
+//   <Header />
+      {/* <Footer />
+    </div> */}
 
 {/* <Header /> */}
