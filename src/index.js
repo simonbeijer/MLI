@@ -10,9 +10,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 
 ReactDOM.render(
-  <Router basename="/MLI">
-    <App />
-  </Router>,
+    <App />,
   document.getElementById('root')
 );
 

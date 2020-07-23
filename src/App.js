@@ -5,11 +5,12 @@ import Home from './components/Home/home'
 import About from './components/About/about'
 import Products from './components/Products/products'
 import Contact from './components/Contact/contact'
-import { Switch, Route } from "react-router-dom";
+import {BrowserRouter, Switch, Route } from "react-router-dom";
 
 
 function App() {
   return (
+    <BrowserRouter basename="/MLI">
     <div className="App">
       <Header />
       <Switch>
@@ -20,6 +21,7 @@ function App() {
       </Switch>
       <Footer />
     </div>
+  </BrowserRouter>
   );
 }
 
