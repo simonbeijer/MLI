@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter basename="/MLI">
       <Switch>
-      <Route path="/about" component={About} />
+      <Route path="/MLI/about" component={About} />
       <Route path="/products" component={Products} />
       <Route path="/contact" component={Contact} />
       <Route path="/" component={Home} />
