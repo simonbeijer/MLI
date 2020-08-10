@@ -11,9 +11,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
+        <ProductProvider>
     <div className="App">
       <BrowserRouter basename="/MLI">
-        <ProductProvider>
           <Header />
           <Switch>
             <Route path="/about" component={About} />
@@ -22,9 +22,9 @@ function App() {
             <Route path="/" component={Home} />
           </Switch>
           <Footer />
-        </ProductProvider>
       </BrowserRouter>
     </div>
+        </ProductProvider>
   );
 }
 
