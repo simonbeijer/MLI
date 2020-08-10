@@ -7,9 +7,6 @@
     // justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-    div {
-      margin: 1rem 1rem 0 1rem;
-    }
     h3 {
       border-bottom: solid white 1px;
     }
@@ -38,7 +35,14 @@
 
   .copy {
     h6 {
+      margin: 1rem 0 1rem 0;
       font-size: 0.8rem;
       color: hsla(0, 0%, 100%, 0.7);
     }
   }
+
+.footerCols {
+  margin: 2rem 0 1rem 0;
+  width: 100%;
+  text-align: center;
+}
