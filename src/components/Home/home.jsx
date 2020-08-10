@@ -8,7 +8,7 @@ function Home() {
 
   return (
     <main className="App-home container-fluid">
-      <ControlledCarousel />
+      <ControlledCarousel className="carousel"/>
       <div className="row">
 
         <div className="text-center">
